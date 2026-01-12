@@ -18,9 +18,7 @@ import Modal from "@/components/Modal/Modal";
 import NoteForm from "@/components/NoteForm/NoteForm";
 import Loader from "@/components/Loader/Loader";
 
-import { fetchNotes } from "@/lib/api/fetchNotes";
-import { createNote } from "@/lib/api/createNote";
-import { deleteNote } from "@/lib/api/deleteNote";
+import { fetchNotes, createNote, deleteNote } from "@/lib/api";
 
 const PER_PAGE = 12;
 
